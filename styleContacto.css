@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4; /* Color de fondo oscuro */
+    padding: 15px 50px;
+}
+
+/* Logo */
+.logo {
+    height: 40px; /* Ajusta el tamaño del logo */
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #00c6ff; /* Color de resaltado */
+}
+
+
+h1{
+    text-align: center;
+
+}
+/* Contenedor del formulario */
+.form-container {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Estilo de la parte izquierda del formulario */
+form {
+    flex: 1;
+    padding: 30px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón de enviar */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Estilo de la parte derecha con la información */
+.contact-info {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h2 {
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para errores */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
